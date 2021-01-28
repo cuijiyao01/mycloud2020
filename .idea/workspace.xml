@@ -16,6 +16,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/cloud-api-commons/src/main/java/com/atguigu/springcloud/data_enum/ResultCodeEnum.java" root0="SKIP_INSPECTION" />
@@ -281,15 +282,23 @@
     </state>
     <state x="448" y="23" width="1280" height="1027" key="SettingsEditor/0.23.1792.1027@0.23.1792.1027" timestamp="1611799053401" />
     <state x="640" y="172" key="SettingsEditor/0.23.2560.1338/-1792.343.1792.1097@0.23.2560.1338" timestamp="1610629383265" />
-    <state x="396" y="215" key="Vcs.Push.Dialog.v2" timestamp="1611803452318">
+    <state x="396" y="215" key="Vcs.Push.Dialog.v2" timestamp="1611804582415">
       <screen x="0" y="23" width="1792" height="1029" />
     </state>
-    <state x="396" y="215" key="Vcs.Push.Dialog.v2/0.23.1792.1029@0.23.1792.1029" timestamp="1611803452318" />
+    <state x="396" y="215" key="Vcs.Push.Dialog.v2/0.23.1792.1029@0.23.1792.1029" timestamp="1611804582415" />
     <state x="396" y="215" key="Vcs.Push.Dialog.v2/0.23.1792.1031@0.23.1792.1031" timestamp="1611803070905" />
+    <state x="644" y="444" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1611804585387">
+      <screen x="0" y="23" width="1792" height="1029" />
+    </state>
+    <state x="644" y="444" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1792.1029@0.23.1792.1029" timestamp="1611804585387" />
     <state x="487" y="245" width="817" height="590" key="find.popup" timestamp="1611046464795">
       <screen x="0" y="23" width="1792" height="1035" />
     </state>
     <state x="487" y="245" width="817" height="590" key="find.popup/0.23.1792.1035@0.23.1792.1035" timestamp="1611046464795" />
+    <state x="536" y="293" key="git4idea.merge.GitPullDialog" timestamp="1611804032272">
+      <screen x="0" y="23" width="1792" height="1029" />
+    </state>
+    <state x="536" y="293" key="git4idea.merge.GitPullDialog/0.23.1792.1029@0.23.1792.1029" timestamp="1611804032272" />
     <state x="128" y="204" key="new project wizard" timestamp="1611232700937">
       <screen x="0" y="23" width="1792" height="1032" />
     </state>
