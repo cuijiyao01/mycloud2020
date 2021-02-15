@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="05411ff5-bbd7-4ec9-ba0b-d38dc9cebf99" name="Default Changelist" comment="" />
+    <list default="true" id="ea39f10f-b565-4b12-a19b-7431237103a0" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,12 +13,13 @@
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
         <option name="jdkForImporter" value="1.8" />
         <option name="vmOptionsForImporter" value="-Xmx768m" />
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectId" id="1oVCQwG8cSDtcf13avYR5oUDDsw" />
+  <component name="ProjectId" id="1oVDkZElpmClV4ZvKzbUBbDWjWJ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="flattenModules" value="true" />
@@ -28,9 +29,6 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
   </component>
   <component name="ServiceViewManager">
@@ -50,18 +48,12 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="05411ff5-bbd7-4ec9-ba0b-d38dc9cebf99" name="Default Changelist" comment="" />
-      <created>1613362357577</created>
+      <changelist id="ea39f10f-b565-4b12-a19b-7431237103a0" name="Default Changelist" comment="" />
+      <created>1613363007803</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1613362357577</updated>
+      <updated>1613363007803</updated>
     </task>
     <servers />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="396" y="123" key="#Project_Structure" timestamp="1613362421823">
-      <screen x="0" y="23" width="1792" height="1031" />
-    </state>
-    <state x="396" y="123" key="#Project_Structure/0.23.1792.1031@0.23.1792.1031" timestamp="1613362421823" />
   </component>
 </project>
