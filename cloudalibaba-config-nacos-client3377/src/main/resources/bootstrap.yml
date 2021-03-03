@@ -7,10 +7,12 @@ spring:
   cloud:
     nacos:
       discovery:
-        server-addr: 127.0.0.1:8848   #服务注册中心和配置中心的地址
+        server-addr: 192.168.0.120:1111   #服务注册中心和配置中心的地址
       config:
-        server-addr: 127.0.0.1:8848   #服务注册中心和配置中心的地址
+        server-addr: 192.168.0.120:1111   #服务注册中心和配置中心的地址
         file-extension: yaml
+#        group: DEV_GROUP
+#        namespace: 83ff8bd5-f5e5-428f-b9ed-365bed60276f
 
 #dataId: ${prefix}-${spring.profiles.active}-${file-extension}
 #prefix = spring.application.name
