@@ -45,8 +45,8 @@ node {
 
           for(int j=0;j<selectedServers.size();j++){
             def currentServer = selectedServers[j];
-            
-            sshPublisher(publishers: [sshPublisherDesc(configName: '${currentServer}',
+            echo "${currentServer}开始部署项目"
+            sshPublisher(publishers: [sshPublisherDesc(configName: "${currentServer}",
             transfers: [sshTransfer(cleanRemote: false, excludes: '',
             execCommand: '/opt/jenkins_shell/deployCluster.sh ${docker_url} ${docker_project_name} ${currentProjectName} ${tag} ${currentProjectPort}',
             execTimeout: 120000, flatten: false, makeEmptyDirs: false, noDefaultExcludes: false,
