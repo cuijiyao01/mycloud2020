@@ -42,7 +42,10 @@ public class PaymentController {
 
   @GetMapping("payment/{id}")
   public Payment getPaymentById(@PathVariable("id") Long id) {
-    Payment payment = paymentService.getPymentById(id);
+    // Payment payment = paymentService.getPymentById(id);
+    Payment payment = new Payment();
+    payment.setId(120L);
+    payment.setSerial("serial 120l");
     payment.setSerial(payment.getSerial()+", serverPort: "+serverPort);
     return payment;
   }
