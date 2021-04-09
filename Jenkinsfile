@@ -15,9 +15,8 @@ node {
         checkout([$class: 'GitSCM', branches: [[name: '*/${branch}']], extensions: [], userRemoteConfigs: [[credentialsId: '8ef8f501-5664-43bb-bb71-fa2fe0ad2929', url: 'git@github.com:cuijiyao01/mycloud2020.git']]])
     }
     stage('build image') {
-        sh "mvn clean install";
-        sh "mvn -f cloud-api-commons clean install";
-
+        sh "mvn clean install -Dmaven.test.skip=true -pl ./cloud-api-commons -am";
+//         sh "mvn -f cloud-api-commons clean install -Dmaven.test.skip=true";
         for(int i=0;i<selectedProjects.size();i++){
           def currentProject = selectedProjects[i];
           def currentProjectName = currentProject.split('@')[0];
@@ -25,7 +24,7 @@ node {
           //定义镜像名称
           def imageName = "${currentProjectName}:${tag}";
           //编译，构建本地镜像
-          sh "mvn -f ${currentProjectName} clean package dockerfile:build";
+          sh "mvn -f ${currentProjectName} clean package -Dmaven.test.skip=true dockerfile:build";
           //给镜像打标签
           sh "docker tag ${imageName} ${docker_project_name}/${imageName}";
 
