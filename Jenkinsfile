@@ -15,6 +15,7 @@ node {
         checkout([$class: 'GitSCM', branches: [[name: '*/${branch}']], extensions: [], userRemoteConfigs: [[credentialsId: '8ef8f501-5664-43bb-bb71-fa2fe0ad2929', url: 'git@github.com:cuijiyao01/mycloud2020.git']]])
     }
     stage('build image') {
+        sh "mvn clean install";
         sh "mvn -f cloud-api-commons clean install";
 
         for(int i=0;i<selectedProjects.size();i++){
