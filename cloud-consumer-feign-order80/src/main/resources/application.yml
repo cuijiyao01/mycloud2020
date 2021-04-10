@@ -9,7 +9,7 @@ eureka:
   client:
     register-with-eureka: true
     service-url:
-      defaultZone: http://106.14.2.133:7001/eureka/,http://106.14.2.133:7002/eureka/
+      defaultZone: http://106.14.2.133:7001/eureka/
   instance:
     instance-id: order-feign
     #访问路径可以显示IP地址
