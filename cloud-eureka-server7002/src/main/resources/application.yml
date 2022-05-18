@@ -3,9 +3,9 @@ server:
 
 eureka:
   instance:
-    hostname: 106.14.2.133  #服务端实例名称
+    hostname: eureka7002.com #eureka服务端的实例名称
   client:
     register-with-eureka: false
     fetch-registry: false
     service-url:
-      defaultZone: http://106.14.2.133:7001/eureka/
+      defaultZone: http://eureka7001.com:7001/eureka/

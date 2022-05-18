@@ -26,12 +26,14 @@ spring:
             #- Header=X-Request-Id, \d+  # 请求头要有X-Request-Id属性并且值为整数的正则表达式
 
 eureka:
-  instance:
-    hostname: cloud-gateway-service
   client: #服务提供者provider注册进eureka服务列表内
     service-url:
       register-with-eureka: true
       fetch-registry: true
       defaultZone: http://eureka7001.com:7001/eureka,http://eureka7002.com:7002/eureka
+  instance:
+    instance-id: cloud-gateway:9527
+    prefer-ip-address: true
+
 
 

@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.RestController;
  * @Version 1.0
  */
 @RestController
-@DefaultProperties(defaultFallback = "paymentGlobaleFallback")
+// @DefaultProperties(defaultFallback = "paymentGlobaleFallback")
 public class OrderController {
   @Autowired
   private OrderService orderService;
